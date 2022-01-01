@@ -1,16 +1,22 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+"""
+time: O(n log(n)) since we use a sort algorithm | space: O(n) the length of
+the array
+"""
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def sorted_square_array(array):
+    """
+    here they are creating an array with 0 as the initialized value via a
+    for-loop within an array
+    """
+    sorted_squares = [0 for i in array]
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    for i in range(len(array)):
+        initial_value = array[i]
+        sorted_squares[i] = initial_value * initial_value
+
+    sorted_squares.sort()
+    return sorted_squares
+
+
+print(sorted_square_array([0, 1, 2, 3]))

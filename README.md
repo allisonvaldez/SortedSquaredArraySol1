@@ -1,26 +1,20 @@
 # Coding Practice: Sorted Squared Array Solution 1
 This project is meant for me to practice coding interview questions with Python.
-In this project, I am presented with the following task: given two 
-non-empty arrays of integers, write a function that determines whether the 
-second array is a subsequence of the first array. 
-
-Important information to note: a subsequence of an array is a set of numbers 
-that aren't necessarily adjacent in the array but that are in the same order 
-as they appear in the array. For example, the numbers [1, 3, 4] are a 
-subsequence of the array [1, 2, 3, 4]. A single number in an array and the 
-array itself are both subsequences.
+In this project, I am presented with the following task: write a function 
+that takes in a non-empty array of integers that are sorted in ascending 
+order and returns a new array (of the same length) with the squares of the 
+original sorted array (in ascending order).
 
 ## Running The Project
 **NOTE: Your IDE may configure the project implicitly as a module. BE SURE TO 
 RUN STEP 4 BELOW BEFORE SUBMITTING LABS** 
 
 1. Download and install Python on your computer
-2. Navigate to the [ValidateSubsequnceSol1.Mod1]() directory
+2. Navigate to the [SortedSquaredArraySol1.Mod1]() directory
 3. Run the program as a module: `python -m Mod1 -h`. This will print the help 
    message.
-4. Run the program as a module (with real inputs): `python -m Mod1 <random 
-   input file> <random output file>`
-   a. IE: `python -m Mod1 input.txt output.txt`
+4. Run the program as a module (with real inputs): `python -m Mod1`
+   a. IE: `python -m Mod1`
 
 The program's output will be displated in the output.txt file.
 
